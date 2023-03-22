@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    background: url("images/1625167567_50-kartinkin-com-p-fon-dlya-feisita-krasivie-foni-57.jpg") no-repeat center top;
+    background-size: cover; /* залить все пространство бэкграунда */
+}
+
+form{
+    width: 70%;
+    margin: 50px auto;
+    border: 3px solid #000;
+    box-shadow: 0 0 15px #000;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.row{
+    display: flex; /* Выстраиваем в один ряд */
+    margin-bottom: 10px;
+}
+
+.text{
+    width: 20%; /* Выравнивание текста  */
+}
+.fields{
+    width: 80%; /* Выравнивание текста  */
+    display: flex;
+    justify-content: space-between;
+}
+input[name="first_name"], input[name="last_name"]{
+    width: 48%;
+}
+input[name="email"]{
+    width: 100%;
+}
+input[name="phone1"], input[name="phone2"]{
+    width: 26%;
+}
+input[name="phone3"]{
+    width: 40%;
+}
+
+select{
+    width: 100%;
+}
+
+textarea{
+    height: 100px;
+    width: 90%;
+}
+input, select{
+    height: 25px;
+}
+button{
+    width: 100%;
+    height: 25px;
+    background: transparent; /*Прозрачный фон */
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer; /*Кликнуть*/
+}
